@@ -1,4 +1,4 @@
-const User =[
+const User = [
     {
         name: 'Elyor',
         email: 'ilhomovlyor119@gmail.com',
@@ -11,7 +11,7 @@ const User =[
     },
     {
         name: 'Abror',
-        email: 'Abror@gmail.com',
+        email: 'abror@gmail.com',
         password: '20010624'
     }
 ]
