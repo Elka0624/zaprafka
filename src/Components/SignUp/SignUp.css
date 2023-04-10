@@ -1,3 +1,10 @@
-div {
-  color: red;
+.signUp-logo{
+  flex-direction: column;
+}
+.signUp-inputs{
+  flex-direction: column;
+}
+.icon{
+  font-size: 20px;
+  
 }
