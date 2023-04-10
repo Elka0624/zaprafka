@@ -1,3 +1,4 @@
+
 .signUp-card{
   width: 100%;
   height: 500px;
@@ -26,7 +27,7 @@
 .signUp-inputs input{
   font-size: 15px;
   font-weight: 500;
-  color: rgb(240, 240, 240);
+  color: rgb(255, 230, 0);
   background: none;
   outline: none;
   border: none;
@@ -55,9 +56,14 @@
   margin-top: 10px;
   padding: 3px 5px;
   padding-left: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
   display: flex;
   align-items: center;
+}
+.signUp-inputs button:hover{
+  cursor: pointer;
+  border: 2px solid yellow;
+  color: yellow;
 }
 .signUp-btn .icon{
   font-size: 25px;
@@ -84,9 +90,9 @@
 }
 .footer-icon:hover{
   cursor: pointer;
-  color: rgb(241, 37, 37);
+  color: rgb(255, 174, 0);
   font-weight: 600;
-  border: 1px solid rgb(241, 37, 37);
+  border: 1px solid rgb(255, 174, 0);
 }
 .footer-icon, .icon{
   margin: 0 auto;
@@ -94,11 +100,31 @@
 .signUp-bg{
   width: 100%;
   height: 400px;
-  background: rgb(241, 37, 37);
+  /* background: rgb(241, 37, 37); */
+  background-image: url(../../Assent/image/zaprafka.webp);
+  background-size: cover;
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -99;
+}
+.signUp-bg-bottom{
+  width: 100%;
+  height: 30px;
+  background: yellow;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -99;
+}
+.signUp-bg-bottom span{
+  font-weight: 600;
+  color: blue;
+}
+.signUp-span{
+  color: yellow;
 }
