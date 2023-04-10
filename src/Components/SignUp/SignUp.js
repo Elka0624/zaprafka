@@ -1,5 +1,6 @@
 import React from 'react'
-import { TbBrandFacebook } from 'react-icons/tb'
+import { TbBrandFacebook, TbBrandTwitter } from 'react-icons/tb'
+import { SlSocialGoogle } from 'react-icons/sl'
 import './SignUp.css'
 
 const SignUp = () => {
@@ -18,11 +19,18 @@ return (
                 <button>SIGN UP</button>
             </div>
             <div className="signUp-footer flex">
-                <div className="facebook">
+                <div className="footer-icon  icon-name">
                     <TbBrandFacebook  className='icon'/>
+                    <p>Facebook</p>
                 </div>
-                <div className="google"></div>
-                <div className="twiter"></div>
+                <div className="footer-icon icon-name">
+                    <SlSocialGoogle className='icon'/>
+                    <p>Google</p>
+                </div>
+                <div className="footer-icon icon-name">
+                    <TbBrandTwitter className='icon'/>
+                    <p>Twitter</p>
+                </div>
             </div>
         </div>
     </div>

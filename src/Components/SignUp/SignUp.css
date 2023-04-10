@@ -8,3 +8,23 @@
   font-size: 20px;
   
 }
+.icon-name{
+  font-size: 13px;
+}
+
+.signUp-footer{
+  justify-content: space-around;
+  
+}
+.footer-icon{
+  max-width: 60px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+}
+.footer-icon, .icon{
+  margin: 0 auto;
+}
